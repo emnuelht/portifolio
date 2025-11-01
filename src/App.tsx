@@ -37,11 +37,11 @@ function App() {
                     </p>
                 </div>
                 <div className="home--social">
-                    <a className='link' href="">
+                    <a className='link' href="https://github.com/emnuelht">
                         <img src={github} alt="" />
                         <span>GitHub</span>
                     </a>
-                    <a className='link' href="">
+                    <a className='link' href="https://www.linkedin.com/in/wellington-torres-1775b2367/">
                         <img src={linkedin} alt="" />
                         <span>LinkedIn</span>
                     </a>

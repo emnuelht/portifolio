@@ -218,6 +218,7 @@
                 display: flex;
                 gap: 1rem;
                 margin-top: 2rem;
+                flex-wrap: wrap;
 
                 .details--item {
                     flex: 1;
@@ -369,7 +370,7 @@
                             }
                         }
                     }
-                    
+
                     .item--body {
                         display: flex;
                         flex-direction: column;
@@ -395,7 +396,7 @@
             .formation--list {
                 display: flex;
                 flex-direction: column;
-                
+
                 .list--item {
                     font-size: 1.1rem;
                     color: var(--primary-color-100);
@@ -549,6 +550,368 @@
                 font-size: 0.9rem;
                 color: var(--primary-color-100);
                 opacity: 0.7;
+            }
+        }
+    }
+}
+
+@media (min-width: 0) {
+    .main {
+        .part {
+            padding: 2rem;
+
+            .part--title {
+                padding: 0 1rem;
+
+                .title--text {
+                    font-size: 1.1rem;
+                    white-space: normal;
+                }
+
+                .title--underline {
+                    margin-top: 0.25rem;
+                }
+            }
+
+            .text {
+                font-size: 1rem;
+                line-height: 1.4;
+            }
+
+            &.main--home {
+                padding: 4rem 1rem;
+                height: auto;
+
+                .home--image {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .home--title {
+                    font-size: 1.5rem;
+                }
+
+                .home--subtitle {
+                    font-size: 1rem;
+                }
+
+                .home--contacts {
+                    flex-direction: column;
+                    gap: 1rem;
+
+                    a {
+                        font-size: 0.9rem;
+                    }
+                }
+
+                .home--social {
+                    flex-direction: column;
+                    gap: 1rem;
+                    width: 100%;
+
+                    .link {
+                        font-size: 0.9rem;
+                        width: 100%;
+                    }
+                }
+            }
+
+            &.main--resume-professional {
+                .resume-professional--details {
+                    .details--item {
+                        .item--title {
+                            font-size: 1.5rem;
+                        }
+                        .item--subtitle {
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+
+            &.main--formation {
+                .formation--list {
+                    .list--item {
+                        .item--title {
+                            font-size: 1rem;
+                        }
+                        .item--subtitle {
+                            font-size: 0.9rem;
+                        }
+                        .item--date {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+
+            &.main--languages {
+                .languages--list {
+                    flex-direction: column;
+
+                    .list--item {
+                        .item--language {
+                            font-size: 1rem;
+                        }
+                        .item--level {
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+
+            &.main--habilitates-professional {
+                .habilitates-professional--list {
+                    .list--item {
+                        .item--header {
+                            .header--texts {
+                                .texts--title {
+                                    font-size: 1rem;
+                                }
+                                .texts--subtitle {
+                                    font-size: 0.9rem;
+                                }
+                                .texts--dates {
+                                    font-size: 0.7rem;
+                                }
+                            }
+                        }
+                        .item--body {
+                            .body--item {
+                                font-size: 0.9rem;
+
+                                i {
+                                    font-size: 0.7rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.main--soft-skills {
+                .soft-skills--list {
+                    grid-template-columns: 1fr;
+
+                    .list--item {
+                        span {
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+
+            &.main--personal-highlights {
+                .personal-highlights--list {
+                    flex-direction: column;
+
+                    .list--item {
+                        i {
+                            font-size: 1.2rem;
+                        }
+                        .item--title {
+                            font-size: 1rem;
+                        }
+                        .item--description {
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+
+            &.main--habilitates-technologies {
+                .habilitates-technologies--list {
+                    .list--item {
+                        .item--title {
+                            font-size: 1rem;
+                        }
+                        .item--items {
+                            span {
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.main--footer {
+                .footer--title {
+                    font-size: 0.9rem;
+                }
+                .footer--text {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 700px) {
+    .main {
+        .part {
+            padding: 3rem 10rem;
+
+            .part--title {
+                padding: 0 1.5rem;
+                
+                .title--text {
+                    font-size: 1.5rem;
+                    white-space: nowrap;
+                }
+            }
+
+            .text {
+                font-size: 1.05rem;
+                line-height: 1.5;
+            }
+
+            &.main--home {
+                .home--title {
+                    font-size: 2rem;
+                }
+
+                .home--subtitle {
+                    font-size: 1.2rem;
+                }
+
+                .home--contacts {
+                    flex-direction: row;
+
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+
+                .home--social {
+                    flex-direction: row;
+                    justify-content: center;
+
+                    .link {
+                        font-size: 1rem;
+                        width: auto;
+                    }
+                }
+            }
+
+            &.main--languages {
+                .languages--list {
+                    flex-direction: row;
+
+                    .list--item {
+                        .item--language {
+                            font-size: 1.1rem;
+                        }
+                        .item--level {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1020px) {
+    .main {
+        .part {
+            padding: 4rem 15rem;
+
+            .part--title {
+                padding: 0 2rem;
+
+                .title--text {
+                    font-size: 1.8rem;
+                }
+            }
+
+            .text {
+                font-size: 1.1rem;
+                line-height: 1.6;
+            }
+
+            &.main--home {
+                .home--title {
+                    font-size: 2.5rem;
+                }
+
+                .home--image {
+                    width: 120px;
+                    height: 120px;
+                }
+
+                .home--subtitle {
+                    font-size: 1.5rem;
+                }
+
+                .home--contacts {
+                    a {
+                        font-size: 1.1rem;
+                    }
+                }
+
+                .home--social {
+                    .link {
+                        font-size: 1.1rem;
+                        width: auto;
+                    }
+                }
+            }
+
+            &.main--resume-professional {
+                .resume-professional--details {
+                    .details--item {
+                        .item--title {
+                            font-size: 2rem;
+                        }
+                        .item--subtitle {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+
+            &.main--personal-highlights {
+                .personal-highlights--list {
+                    flex-direction: row;
+                    .list--item {
+                        i {
+                            font-size: 1.5rem;
+                        }
+                        .item--title {
+                            font-size: 1.2rem;
+                        }
+                        .item--description {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+
+            &.main--soft-skills {
+                .soft-skills--list {
+                    grid-template-columns: 1fr 1fr;
+
+                    .list--item {
+                        span {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .main {
+        .part {
+            padding: 4rem 20rem;
+
+            &.main--home {
+                .home--image {
+                    width: 150px;
+                    height: 150px;
+                }
             }
         }
     }
