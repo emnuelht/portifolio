@@ -45,7 +45,7 @@ function App() {
                         <img src={linkedin} alt="" />
                         <span>LinkedIn</span>
                     </a>
-                    <a className='link download' href="/public/Curriculo.pdf" download>
+                    <a className='link download' href="/portifolio/Curriculo.pdf" download>
                         <img src={download} alt="" />
                         <span>Baixar PDF</span>
                     </a>
