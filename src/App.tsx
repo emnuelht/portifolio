@@ -1,6 +1,6 @@
-import github from '/public/images/github.svg'
-import linkedin from '/public/images/linkedin.svg'
-import download from '/public/images/download.svg'
+import github from '/images/github.svg'
+import linkedin from '/images/linkedin.svg'
+import download from '/images/download.svg'
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
         return (
             <section className="main--home part">
                 <div className="home--image">
-                    {/* <img src="" alt="" /> */}
+                    <img className='image--me' src="images/me.jpeg" alt="Foto de Wellington Torres" />
                 </div>
                 <h1 className="home--title">Wellington Torres</h1>
                 <p className="home--subtitle">Desenvolvedor Full Stack</p>
