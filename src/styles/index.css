@@ -504,6 +504,22 @@
                             }
                         }
                     }
+
+                    .item--techs {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 0.4rem;
+                        margin-bottom: 0.5rem;
+
+                        span {
+                            background-color: var(--color-blue-dark-700);
+                            padding: 0.15rem 0.6rem;
+                            border-radius: 4px;
+                            font-size: 0.8rem;
+                            color: var(--primary-color-300);
+                            border: 1px solid var(--color-blue-dark-400);
+                        }
+                    }
                 }
             }
         }

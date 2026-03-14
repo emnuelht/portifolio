@@ -1,51 +1,50 @@
-**Formulário de Login Responsivo** - Um dos meus primeiros projetos para testar minhas habilidades com design e responsividade. Nada muito complexo, mas foi uma boa forma de praticar CSS, gradientes e media queries. Na época estava aprendendo a fazer layouts que funcionassem bem em diferentes telas.
-Link do site: https://emnuelht.github.io/form-login/
-Link do código: https://github.com/emnuelht/form-login
+**Sistema de Coleta e Gestão de Dados de Campo (App Mobile + Plataforma Web)** - Aplicativo mobile offline-first para coleta de dados em campo, com sincronização inteligente entre dispositivo e servidor. O sistema conta com formulários dinâmicos gerados por JSON, gestão de famílias e moradores, controle de acesso baseado em papéis (RBAC), dashboard com estatísticas e visualização de dados, autenticação com dois fatores (2FA) e sistema de auditoria com soft delete.
+Tecnologias: Java, Spring Boot, React, TypeScript, Android, APIs REST, Linux, VPS
+Código privado
 
-**ServicesHere - App React Native** - Este foi um projeto que fiz durante a faculdade para uma atividade. Eu mesmo escolhi o tema, observei uma necessidade na minha cidade e criei um aplicativo de serviços. A ideia era conectar pessoas que precisam de serviços com profissionais disponíveis na região. O app tinha cadastro de usuários, publicação de serviços, área para profissionais, sistema de busca e muito mais. Mesmo sendo um conceito comum hoje. Infelizmente não funciona mais porque o servidor expirou e acabei não dando continuidade, mas o projeto me rendeu nota máxima e muito aprendizado em React Native, Expo, APIs e backend.
+**Plataforma de Marketplace para Restaurantes** - Plataforma que permite restaurantes criarem suas próprias lojas online. Inclui sistema de autenticação com confirmação de email, dashboard com métricas de vendas e pedidos, gestão de produtos, categorias e preços, sistema de pedidos com status e histórico, carrinho de compras, checkout e registro de eventos e logs do sistema.
+Tecnologias: Java, Spring Boot, React, TypeScript, APIs REST, PostgreSQL
+Código privado
+
+**Sistema de Gestão de Caixa para Restaurante (PDV)** - Sistema completo de ponto de venda com gestão de mesas, pedidos e delivery. Controle de status de pedidos (aberto/fechado), fechamento de caixa diário com relatórios financeiros, gestão de produtos com controle de estoque, custo e preço, controle de despesas operacionais e sistema de backup para recuperação de dados.
+Tecnologias: PHP, React, APIs REST, MySQL
+Código privado
+
+**Sistema de Gestão Hierárquica (Laravel)** - Sistema web para gerenciamento hierárquico de entidades organizacionais (Grupos → Bandeiras → Unidades → Colaboradores). Possui autenticação segura, CRUD completo com componentes Livewire para interatividade em tempo real, sistema de auditoria que registra todas as ações dos usuários, filtragem avançada de dados e exportação para Excel.
+Tecnologias: PHP, Laravel, Livewire, MySQL
+Link do código: https://github.com/emnuelht/sistema-gestao
+
+**ServicesHere - App React Native** - Aplicativo de serviços que conecta pessoas que precisam de serviços com profissionais disponíveis na região. O app inclui cadastro de usuários, publicação de serviços, área para profissionais, sistema de busca e muito mais.
+Tecnologias: React Native, Expo, APIs REST
 Link do código: https://github.com/emnuelht/ServicesHere
 
-**Gerador de Entities Java** - Este foi um projeto experimental onde tentei criar um sistema que identificasse mudanças em estruturas JSON e gerasse automaticamente arquivos Java (entities) para tabelas de banco de dados. Na época eu não sabia que já existiam ferramentas que faziam isso, mas foi uma experiência valiosa! O sistema comparava JSONs, identificava diferenças e gerava tanto as classes Entity quanto scripts SQL de migração. Aprendi muito sobre manipulação de JSON, geração de código dinâmico e estruturas de dados. Mesmo não tendo finalizado completamente, me deu uma base sólida que usei em outros projetos.
+**CompareJson - Biblioteca Java** - Biblioteca Java para comparação estrutural de JSON. Identifica automaticamente adições, modificações e remoções em estruturas JSON com algoritmo recursivo. Publicada via JitPack.
+Tecnologias: Java, Jackson, Gradle
+Link do código: https://github.com/emnuelht/compareJson
+
+**JsonToSQL - Gerador de SQL a partir de JSON** - Ferramenta que converte estruturas JSON em comandos CREATE TABLE, com mapeamento automático de tipos JSON para SQL.
+Tecnologias: Java, SQL, Gradle
+Link do código: https://github.com/emnuelht/json-to-sql
+
+**Gerador de Entities Java** - Projeto experimental que identifica mudanças em estruturas JSON e gera automaticamente classes Java Entity e scripts SQL de migração para banco de dados.
+Tecnologias: Java, JSON, SQL
 Link do código: https://github.com/emnuelht/java-api-rest
 
-**Site Estação Inova - O Projeto que Mudou Minha Vida** - Este é um dos projetos mais especiais da minha trajetória, porque foi através dele que consegui minha primeira oportunidade profissional. Em 2020/2021, quando ainda estava aprendendo programação de forma autodidata através do YouTube e cursos gratuitos (muito obrigado, Gustavo Guanabara!), apareceu uma oportunidade única: um curso gratuito de programação na minha cidade chamado Estação Inova.
-
-Como eu via o curso como algo nunca visto, pois era algo grande e gratuito, eu nem imaginava que seria selecionado. Mas consegui! Durante 6 meses, tive acesso à plataforma Alura e pude estudar JavaScript, design, e muito mais. Vi muitos colegas desistirem no meio do caminho, mas eu me mantive firme porque sabia que era uma oportunidade única.
-
-No final do curso, o desafio foi criar um site para o próprio Estação Inova. Mesmo sem saber por onde começar, fui pesquisando, testando e montando. Fui o único aluno a desenvolver completamente o código do site (com ajuda apenas nos textos, porque realmente não sou muito bom escrevendo kkk). O resultado foi um site completo com informações sobre o projeto, galeria de cursos, área de projetos dos alunos.
-
-Quando apresentei o site no final do curso, acabei ganhando uma bolsa de trabalho - onde trabalho até hoje! O link do projeto está logo abaixo, fique a vontade para ver meu projeto.
+**Site Estação Inova** - Site completo desenvolvido como projeto final de um curso de programação, com informações sobre o projeto, galeria de cursos e área de projetos dos alunos. Esse projeto me rendeu minha primeira oportunidade profissional.
+Tecnologias: HTML, CSS, JavaScript
 Link do código: https://github.com/emnuelht/estacao-inova
 Link do site: https://emnuelht.github.io/estacao-inova/
 
-**CompareJson - Minha Primeira Biblioteca Java** - Este projeto foi especial porque foi através dele que aprendi a criar e publicar uma biblioteca Java própria! A ideia surgiu da necessidade de comparar mudanças estruturais entre arquivos JSON que representavam tabelas de banco de dados.
-
-O CompareJson identifica automaticamente três tipos de alterações: adições (✅), modificações (🔄) e remoções (❌) em estruturas JSON. Ele funciona com um formato específico onde tabelas usam `__tbXX` e colunas usam `__cnXX` como identificadores únicos. O resultado é um Map com chaves descritivas que mostram exatamente onde cada mudança aconteceu.
-
-Foi bem legal implementar a lógica de comparação recursiva e entender como publicar no JitPack, mas o resultado foi uma ferramenta que outras pessoas podem usar adicionando apenas uma linha no Gradle! Aprendi muito sobre Jackson para parsing de JSON, recursão e como estruturar uma biblioteca profissional.
-Link do código: https://github.com/emnuelht/compareJson
-
-**JsonToSQL - Expandindo a Ideia** - Depois de criar o CompareJson, quis complementar o projeto criando algo que gerasse tabelas SQL dinamicamente a partir de JSON. Reutilizei o mesmo formato de estrutura do CompareJson (tabelas com `__tbXX` e colunas com `__cnXX`) para criar uma ferramenta que converte JSON em comandos CREATE TABLE.
-
-O usuário fornece um JSON seguindo o padrão e o programa retorna SQL pronto para execução. Foi interessante trabalhar com geração dinâmica de código e pensar em como mapear tipos JSON para tipos SQL de forma inteligente.
-Link do código:
-https://github.com/emnuelht/json-to-sql
-
-**Site de Aula - Minha Experiência Como Professor** - Uma das experiências marcantes da minha jornada foi quando tive a oportunidade de ensinar programação para crianças de 11 a 14 anos. Para tornar o aprendizado mais interessante e interativo, criei um site completo que funcionava como uma apresentação e material didático.
-
-O site cobriu os fundamentos do desenvolvimento web: HTML5 (estrutura e tags), CSS3 (estilos e seletores) e JavaScript (interatividade e DOM). Não usei frameworks propositalmente para que os alunos entendessem a base pura da programação web. Inclui exemplos práticos como um sistema dia/noite do Minecraft que mudava com comandos JavaScript, quiz interativo com validação automática.
-
-Os alunos conseguiam navegar pelo conteúdo, praticar os exercícios e ver o resultado imediato do código.
+**Site de Aula - Material Didático** - Site interativo criado para ensinar programação web (HTML, CSS e JavaScript) para crianças de 11 a 14 anos, com exemplos práticos e quiz interativo.
+Tecnologias: HTML, CSS, JavaScript
 Link do código: https://github.com/emnuelht/aula-programacao-web
 Link do site: https://emnuelht.github.io/aula-programacao-web/
 
-**Sistema de Gestão Laravel** - Este foi meu primeiro contato com Laravel e PHP, e posso dizer que foi uma experiência muito legal. Criei um sistema completo de gerenciamento hierárquico (Grupos → Bandeiras → Unidades → Colaboradores) que me permitiu explorar profundamente o ecosistema Laravel.
+**Formulário de Login Responsivo** - Projeto para praticar design responsivo com CSS, gradientes e media queries.
+Tecnologias: HTML, CSS
+Link do código: https://github.com/emnuelht/form-login
+Link do site: https://emnuelht.github.io/form-login/
 
-O sistema possui autenticação segura, CRUD completo com componentes Livewire para interatividade em tempo real, sistema de auditoria que registra todas as ações dos usuários (criação, edição, exclusão), filtragem avançada de dados e exportação para Excel. Vi como o padrão MVC torna o código organizado e escalável.
-
-Aprendi muito sobre migrations, middleware, validações, blade templates e principalmente sobre Livewire - que me impressionou por permitir criar interfaces dinâmicas usando apenas PHP. O README do projeto é bem detalhado, com prints de todas as telas e explicações do fluxo completo do sistema.
-Link do código: https://github.com/emnuelht/sistema-gestao
-
-**Portfólio React TypeScript** - E por fim, este próprio portfólio que você está vendo! Foi criado com React TypeScript e Vite, focando em design responsivo e performance. Contém todas as informações dos meus projetos, habilidades e trajetória profissional.
-Link do código:
-https://github.com/emnuelht/portifolio
+**Portfólio React TypeScript** - Este próprio portfólio! Criado com React TypeScript e Vite, focando em design responsivo e performance.
+Tecnologias: React, TypeScript, Vite
+Link do código: https://github.com/emnuelht/portifolio
