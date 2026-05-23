@@ -41,7 +41,7 @@ function App() {
                         <img src={github} alt="" />
                         <span>GitHub</span>
                     </a>
-                    <a className='link' href="https://www.linkedin.com/in/wellington-torres-1775b2367/">
+                    <a className='link' href="https://www.linkedin.com/in/wellington-torres-java">
                         <img src={linkedin} alt="" />
                         <span>LinkedIn</span>
                     </a>
